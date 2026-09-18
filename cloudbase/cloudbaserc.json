@@ -1,0 +1,14 @@
+{
+  "$schema": "https://static.cloudbase.net/cli/cloudbaserc.schema.json",
+  "version": "2.1",
+  "envId": "shicang-d5ghnihwq293cd52c",
+  "functionRoot": "./functions",
+  "functions": [{
+    "name": "shicang-api",
+    "runtime": "Nodejs18.15",
+    "handler": "index.main",
+    "timeout": 20,
+    "memorySize": 256,
+    "installDependency": true
+  }]
+}
